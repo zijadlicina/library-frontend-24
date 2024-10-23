@@ -1,0 +1,8 @@
+export {default as Authors} from "./Authors"
+export {default as Books} from "./Books"
+export {default as BookDetail} from "./BookDetail"
+export {default as AuthorDetail} from "./AuthorDetail"
+export {default as NewBook} from "./NewBook"
+export {default as NewAuthor} from "./NewAuthor"
+export {default as EditBook} from "./EditBook"
+export {default as EditAuthor} from "./EditAuthor"

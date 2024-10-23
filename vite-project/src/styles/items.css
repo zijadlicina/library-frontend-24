@@ -1,0 +1,92 @@
+.divItems{
+    margin: 8% 14%;
+}
+.textHeader{
+    font-size: xx-large;
+    margin-bottom: 2rem;
+    color: rgb(26, 26, 119);
+}
+.itemsTable{
+    display: flex;
+    flex-wrap: wrap;
+}
+.perItemTable{
+    flex-grow: 1;
+    width: 33%;
+    max-width: 33%;
+    height: 60px;
+    background-color: turquoise;
+    border: 1px solid white;
+    padding: 7px;
+    font-size: large;
+    font-weight:500;
+}
+.perItemTable:hover{
+   opacity: 70%;
+   cursor: pointer;
+}
+.perItemTable:nth-child(even){
+    background: rgb(195, 201, 245);
+}
+.perItemTable:nth-child(odd){
+    background-color: rgb(95, 95, 182);
+    color: white;
+}
+.perItemTable{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.iconItem{
+    height: 20px;
+    width: 40px;
+}
+.titleItem{
+    flex-grow: 4;
+}
+.yearItem{
+    flex-grow: 25%;
+    text-align: right;
+    font-size: small;
+    font-style: italic;
+    display: flex;
+    align-items: flex-end;
+}
+.headerItems{
+    display: flex;
+}
+.textHeader{
+    flex-grow: 5;
+}
+.addItem{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 20px;
+    flex-grow: 0.35;
+    padding: 16px 15px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right top, #d2d0da, #ccc4cc, #c5b8be, #bcadaf, #b1a3a0, #a99d9a, #a29694, #9a908e, #938c8d, #8c888a, #858486, #808080);}
+.addItem:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+@media (max-width: 1200px) {
+    .divItems{
+        margin-top:20%;
+    }
+}
+@media (max-width: 900px) {
+    .divItems{
+        margin-top: 30%;
+    }
+    .titleItem{
+        font-size: small;
+    }
+    .yearItem{
+        font-size: xx-small;
+    }
+    .addItem{
+        flex-grow: 0.1;
+    }
+}

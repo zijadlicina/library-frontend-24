@@ -1,0 +1,102 @@
+.textHeaderValue{
+    margin-left: 10px;
+}
+.divBack{
+    margin-bottom: 2%;
+    display: flex;
+    width: 10%;
+
+}
+.backIcon{
+    height: 30px;
+    width: 140px;
+    background-image: linear-gradient(to right top, #d2d0da, #ccc4cc, #c5b8be, #bcadaf, #b1a3a0, #a99d9a, #a29694, #9a908e, #938c8d, #8c888a, #858486, #808080);    color: white;
+    padding: 3px;
+}
+.backText{
+    margin-left: 10px;
+    flex-grow: 1;
+    color: grey;
+    font-weight: bold;
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+.divBack:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+.detailInfoDiv{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    margin: 0 25%;
+}
+.detailInfoDiv-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 20px;
+}
+.detailInfoDiv-row-label{
+    flex-grow: 3;
+    font-size: large;
+    font-weight: bold;
+}
+.detailInfoDiv-row-value{
+    flex-grow: 1;
+    font-style: italic;
+}
+.detailItemHeader{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+.textHeaderValue{
+    flex-grow: 6;
+}
+.detailItem{
+    display: flex;
+    color:  grey;
+    justify-content: center;
+    align-content: center;
+}
+.detailItem:hover{
+   opacity: 70%;
+   cursor: pointer;
+}
+.detailItem-edit{
+    flex-grow: 1;
+    font-size: medium;
+    display: flex;
+}
+.detailItem-delete{
+    flex-grow: 1;
+    font-size: medium;
+    display: flex;
+}
+.detailItemIcon{
+    height:50px;
+    width: 30px;
+}
+.detailItemText{
+    margin-top: 13px;
+    font-size: large;
+}
+.detailInfoDiv-row-message{
+    margin-top: 3%;
+    font-size: large;
+}
+
+@media (max-width: 1200px) {
+    .divBack{
+        margin-bottom: 2%;
+        width: 20%;
+    }
+   
+}
+@media (max-width: 900px) {
+    .detailItemHeader{
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,73 @@
+.itemNewDiv{
+    margin: 0 15%;
+    margin-top: 7%;
+}
+.itemNewFormRow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.6%;
+    flex-grow: 5;
+    min-height: 65px;
+}
+.itemNewFormRowLabel{
+    flex-grow: 3;
+    max-width: 400px;
+    font-weight: 400;
+}
+.itemNewFormRowValue{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.itemNewFormRowMessage{
+    margin-top: 1%;
+    color: red;
+    font-style: italic;
+    font-size: small;
+}
+.itemNewFormRowInput{
+    width: 100%;
+    height: 35px;
+    border: 1px solid grey;
+    padding: 15px;
+    max-width: 700px;
+}
+.itemNewFormRowSubmit{
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+.itemNewFormRowButton{
+    background-color:  rgb(26, 26, 119);;
+    color: white;
+    padding: 15px;
+}
+.itemNewFormRowButton:hover{
+   opacity: 70%;
+}
+.itemNewFormRowSelect{
+    width: 100%;
+    height: 35px;
+    border: 1px solid grey;
+    max-width: 700px; 
+    padding-left: 15px;
+}
+@media (max-width: 1200px) {
+    .itemNewDiv{
+        margin-top:15%;
+    }
+    .itemNewFormRow{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 900px) {
+    .itemNewDiv{
+        margin-top: 20%;
+    }
+    .itemNewFormRow{
+        flex-direction: column;
+    }
+}
